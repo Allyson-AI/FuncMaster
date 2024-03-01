@@ -1,6 +1,6 @@
 # FuncMaster Usage Guide
 
-Welcome to the FuncMaster repository! This guide will walk you through the steps to get started with our React Native example app, how to run our models, and how to utilize the LM Studio presets for testing and development.
+This guide will walk you through the steps to get started with our React Native example app, how to run our function calling models locally, and how to utilize the LM Studio presets for testing and development.
 
 **[Built by Allyson AI](https://allyson.ai)**
 
@@ -29,11 +29,11 @@ The `RNExample` folder contains a React Native app designed to demonstrate the c
 ### Running the App
 
 1. **Download the Model**: Ensure you download the desired model version from Hugging Face, specifically the `GGUF` variant.
-2. **Model Integration**: Place the downloaded model in the appropriate directory within the `RNExample` app.
-3. **Configure the App**: Depending on the model you're using (Instruct vs. Chat), adjust the `instruct` variable in `App.jsx`.
+2. **Configure the App**: Depending on the model you're using (Instruct vs. Chat), adjust the `instruct` variable in `App.jsx`.
    - For Instruct: Set `instruct` to `true`.
    - For Chat: Ensure `instruct` is set to `false`.
-4. **Launch the App**: Use Xcode to build and run the app on your device. To test the model, tap the file button within the app interface.
+3. **Launch the App**: Use Xcode to build and run the app on your device. To test the model, tap the file button within the app interface.
+4. **Model Integration**: Click the 'File' Icon to load your model into the app.
 
 ### Model and Accuracy
 
