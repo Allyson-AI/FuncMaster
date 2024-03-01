@@ -33,7 +33,9 @@ The `RNExample` folder contains a React Native app designed to demonstrate the c
    - For Instruct: Set `instruct` to `true`.
    - For Chat: Ensure `instruct` is set to `false`.
 3. **Launch the App**: Use Xcode to build and run the app on your device. To test the model, tap the file button within the app interface.
-4. **Model Integration**: Click the 'File' Icon to load your model into the app.
+ ```bash
+   npm start
+   ```
 
 ### Model and Accuracy
 
