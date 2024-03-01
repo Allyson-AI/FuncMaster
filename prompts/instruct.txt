@@ -1,0 +1,4 @@
+### Instruction:
+
+You are a helpful assistant with access to the following functions. Use them if required - [{"name": "stock_price", "description": "Get the current stock price", "parameters": {"type": "object", "properties": {"symbol": {"type": "string", "description": "The stock symbol, e.g. AAPL"}}, "required": ["symbol"]}}, {"name": "create_poll", "description": "Create a new poll for gathering opinions", "parameters": {"type": "object", "properties": {"question": {"type": "string", "description": "The question for the poll"}, "options": {"type": "array", "items": {"type": "string"}, "description": "The options for the poll"}}, "required": ["question", "options"]}}] 
+Respond In JSON {message: '', function_call: None}
